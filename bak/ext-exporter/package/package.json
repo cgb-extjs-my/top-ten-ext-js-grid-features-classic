@@ -1,0 +1,69 @@
+{
+  "name": "@sencha/ext-exporter",
+  "version": "7.1.0",
+  "sencha": {
+    "name": "exporter",
+    "namespace": "Ext",
+    "type": "code",
+    "framework": "ext",
+    "requires": [
+      "core"
+    ],
+    "creator": "Sencha",
+    "summary": "Exports data to various formats like: Excel xml, Excel xlsx, csv, tsv, html etc",
+    "detailedDescription": "Utilities and plugins to export data in various formats and download them client-side",
+    "version": "7.1.0.68",
+    "compatVersion": "6.0.0",
+    "format": "1",
+    "output": {
+      "base": "${package.dir}/build/${build.id}"
+    },
+    "local": true,
+    "sass": {
+      "namespace": "Ext",
+      "etc": [
+        "${package.dir}/sass/etc/all.scss",
+        "${package.dir}/${toolkit.name}/sass/etc/all.scss"
+      ],
+      "var": [
+        "${package.dir}/sass/var",
+        "${package.dir}/${toolkit.name}/sass/var"
+      ],
+      "src": [
+        "${package.dir}/sass/src",
+        "${package.dir}/${toolkit.name}/sass/src"
+      ]
+    },
+    "classpath": [
+      "${package.dir}/src",
+      "${package.dir}/${toolkit.name}/src"
+    ],
+    "overrides": [
+      "${package.dir}/overrides",
+      "${package.dir}/${toolkit.name}/overrides"
+    ],
+    "extTier": "enterprise"
+  },
+  "scripts": {
+    "install": "node activate.js"
+  },
+  "description": "Exports data to various formats like: Excel xml, Excel xlsx, csv, tsv, html etc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extjs/SDK.git"
+  },
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "@sencha/ext-core": "7.2.0"
+  },
+  "author": "Sencha, Inc.",
+  "homepage": "https://www.sencha.com/products/extjs/",
+  "bugs": "https://support.sencha.com/",
+  "keywords": [
+    "sencha",
+    "extjs",
+    "ext js",
+    "ext-js",
+    "ext"
+  ]
+}
